@@ -6,7 +6,8 @@ name = "pypi"
 [packages]
 sanic = "*"
 pony = "*"
+sanic-restful = "*"
+umongo = {extras = ["motor"],version = "*"}
 
 [dev-packages]
 pylint = "*"
-
