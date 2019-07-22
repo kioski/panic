@@ -5,9 +5,11 @@ name = "pypi"
 
 [packages]
 sanic = "*"
-pony = "*"
-sanic-restful = "*"
-umongo = {extras = ["motor"],version = "*"}
+sanic-jinja2 = "*"
+sanic-restplus = "*"
+sanic-jwt-extended = "*"
+sanic-mongodb-extension = "*"
+sanic-script = "*"
 
 [dev-packages]
 pylint = "*"
