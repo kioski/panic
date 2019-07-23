@@ -16,3 +16,10 @@ async def handle(request):
     await tpost.commit()
 
     return response.json(tpost.dump())
+
+async def getAll(request):
+    from app.models.documents import Posts
+    posts = Posts()
+    r = await posts.find_one()
+
+    return response.json(r)

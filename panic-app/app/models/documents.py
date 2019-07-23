@@ -8,5 +8,9 @@ class Posts(Document):
     # title, body, author, published, meta{ upvotes, favs },
     title = fields.StrField(required=True)
     body = fields.StrField()
+    author = fields.StrField()
     published = fields.BoolField(False)
     meta = fields.DictField()
+
+    class Meta:
+        exclude=['date',]

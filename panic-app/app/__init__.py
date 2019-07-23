@@ -9,9 +9,7 @@ app = Sanic("Panic-API-whatevers")
 # config
 app.config.update({
     'MONGODB_DATABASE': 'dbhaxspace',
-    'MONGODB_URI': 'mongodb://dev1:version1@ds035448.mlab.com:35448',
-    'MONGO_USERNAME': 'dev1',
-    'MONGO_PASSWORD': 'version1',
+    'MONGODB_URI': 'mongodb://dev1:version1@ds035448.mlab.com:35448/dbhaxspace',
     'LAZY_UMONGO': MotorAsyncIOInstance()
 })
 
