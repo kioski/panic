@@ -1,0 +1,4 @@
+[submodule "panic"]
+	path = panic
+	url = https://github.com/killertilapia/panic
+	branch = master
